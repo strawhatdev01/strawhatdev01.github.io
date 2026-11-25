@@ -6,6 +6,13 @@ export function App() {
       <a className="skip" href="#work">
         Skip to work
       </a>
+      <div className="field" aria-hidden="true">
+        <span className="orb orb-a" />
+        <span className="orb orb-b" />
+        <span className="orb orb-c" />
+        <span className="orb orb-d" />
+        <span className="orb orb-e" />
+      </div>
       <header className="nav">
         <a className="nav-mark" href="#top">
           Ahmad Musa
