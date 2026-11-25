@@ -28,13 +28,18 @@ export function App() {
         <section className="hero">
           <div>
             <p className="kicker">Software developer · Zaria, Nigeria</p>
-            <h1>Ahmad Musa</h1>
+            <h1>
+              <span>Ahmad</span>
+              <span>Musa</span>
+            </h1>
             <p className="lede">
               I build web software that a person can finish a real job with. I study computer science at Ahmadu Bello
               University, and I am looking for a software engineering internship.
             </p>
             <p className="hero-links">
-              <a href={`mailto:${email}`}>Email</a>
+              <a className="solid" href={`mailto:${email}`}>
+                Email
+              </a>
               <a href={linkedin}>LinkedIn</a>
               <a href={github}>GitHub</a>
             </p>
